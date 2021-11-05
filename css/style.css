@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* header */
+header {
+    height: 50px;
+    background: #739dc3;
+    display: flex;
+    justify-content: start;
+}
+
+.header-default {
+    width: 100%;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+}
+
+.header-logo img {
+    margin: 5px 20px;
+    border-radius: 50px;
+    border: 2px solid #FFF;
+    height: 40px;
+}
+
+.header-logo p {
+    line-height: 50px;
+    font-size: 18pt;
+}
+
+.header-list ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    line-height: 50px;
+    margin-left: 20px;
+}
+
+.header-list a {
+    text-decoration: none;
+    color: #444455;
+    padding: 0 10px;
+}
+
+.header-list a:hover {
+    color: #000;
+}
+
+header .fa-bars {
+    display: none;
+}
+
+main {
+    clear: both;
+    margin: 0 0 40px;
+}
+
+.top {
+    padding: 0 0 60px;
+    text-align: center;
+    background-image: url('../img/top.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 0.8;
+    color: #FFF;
+}
+
+.top h1 {
+    text-transform: uppercase;
+    font-size: 30pt;
+    padding: 50px 0 0;
+    text-shadow: 2px 2px #000;
+}
+
+.top h2 {
+    letter-spacing: 5px;
+    font-size: 24pt;
+    padding-bottom: 20px;
+    text-shadow: 2px 2px #000;
+}
+
+.top-btn {
+    margin-top: 30px;
+}
+
+.top-btn p {
+    margin-bottom: 20px;
+}
+
+.top-btn .btn {
+    margin: 0 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.top-btn a {
+    text-decoration: none;
+}
+
+.top-btn i {
+    padding-right: 10px;
+}
+
+.facebook {
+    background-color: #1877F2;
+}
+
+.twitter {
+    background-color: #1DA1F2;
+}
+
+.instagram {
+    background-color: #E4405F;
+}
+
+main h2 {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.profiles {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile-img {
+    position: relative;
+    width: 20%;
+}
+
+.profile-img p {
+    position: absolute;
+    top: 30px;
+    width: 203px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile-img img {
+    border-radius: 15px;
+}
+
+.profile p {
+    text-align: center;
+}
+
+.contact-wrapper {
+    margin-top: 100px;
+}
+
+.contact-container {
+    background-color: #FFF;
+}
+
+.container-image, .container-form {
+    width: 50%;
+}
+
+.container-image {
+    float: left;
+}
+
+.container-form {
+    float: right;
+    text-align: center;
+}
+
+.container-form p {
+    font-weight: bold;
+}
+
+.container-image img {
+    padding: 0 10px;
+    width: 80%;
+}
+
+input,textarea {
+    font-weight: lighter;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #121213;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    font-family: 'poppins', sans-serif;
+}
+
+.contact {
+    font-weight: bold;
+    padding: 10px 40px;
+    background-color: #6c63fe;
+    opacity: 0.8;
+    cursor: pointer;
+    box-shadow: 0 7px #121213;
+    border-radius: 10px;
+    color: #FFF;
+    margin-top: 10px;
+    margin: 0 auto;
+    width: max-content;
+}
+
+.contact:hover {
+    opacity: 1;
+}
+
+.contact:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+footer {
+    clear: both;
+    display: flex;
+    justify-content: space-between;
+    background-color: #739dc3;
+    padding: 20px;
+}
+
+.footer-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-logo img {
+    border-radius: 50px;
+    border: 2px solid #FFF;
+}
+
+.brand p:first-of-type, .menus p, .icons p {
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+.brand p:last-of-type {
+    color: #444455;
+}
+
+.menus ul, .icons ul {
+    list-style-type: none;
+}
+
+.menus li {
+    line-height: 20pt;
+}
+
+.menus a {
+    text-decoration: none;
+    color: #444455;
+}
+
+.menus a:hover, .icons a:hover {
+    color: #000;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16pt;
+    width: 150px;
+}
+
+.icons a {
+    color: #444455;
+}

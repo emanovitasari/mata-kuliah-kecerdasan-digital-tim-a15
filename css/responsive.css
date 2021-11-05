@@ -1,0 +1,198 @@
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        width: 100%;
+    }
+    .header-logo img {
+        margin: 5px 10px;
+    }
+
+    .header-logo p {
+        font-size: 14pt;
+    }
+
+    .header-list ul {
+        display: none;
+    }
+
+    header .fa-bars {
+        display: block;
+        line-height: 50px;
+        font-size: 20px;
+        padding:  0 15px;
+    }
+
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top h1 {
+        padding: 30px 0 0;
+        font-size: 20pt;
+    }
+
+    .top h2 {
+        padding: 20px 0 0;
+    }
+
+    .top p {
+        font-size: 10pt;
+        padding: 10px 30px;
+    }
+
+    .top p:first-of-type {
+        margin: 10px;
+    }
+
+    .top-btn {
+        margin-top: 10px;
+    }
+
+    .top-btn .btn {
+        margin: 5px;
+        font-size: 8pt;
+    }
+
+    main h2 {
+        padding: 30px;
+        font-size: 12pt;
+    }
+
+    .profiles {
+        display: block;
+        width: 100%;
+    }
+
+    .profile-img {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .profile-img img {
+        width: 100%;
+    }
+
+    .profile-img p {
+        width: 160px;
+        top: 20px;
+        font-size: 10pt;
+    }
+
+    .profile p {
+        font-size: 10pt;
+        padding-bottom: 30px;
+    }
+
+    .contact-wrapper {
+        margin-top: 0px;
+    }
+
+    .contact-wrapper h2 {
+        padding-bottom: 0;
+    }
+
+    .contact-container {
+        width: 100%;
+    }
+
+    .container-image, .container-form {
+        float: none;
+        width: 100%;
+    }
+
+    .container-image img {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .container-form p {
+        font-size: 10pt;
+    }
+
+    input, textarea {
+        font-size: 8pt;
+    }
+
+    .contact {
+        width: 70%;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .menus, .icons {
+        margin-top: 10px;
+    }
+
+    .icons ul {
+        width: 100%;
+        padding: 0 30px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 768px) {
+    .header-default {
+        width: 100%;
+        display: flex;
+    }
+
+    header .fa-bars {
+        display: none;
+    }
+
+    .top h1 {
+        padding-top: 110px;
+    }
+
+    .top h2 {
+        padding-top: 0;
+        font-size: 30pt;
+    }
+
+    .top p {
+        padding: 0 40px;
+        font-size: 10pt;
+    }
+
+    main h2 {
+        font-size: 15pt;
+    }
+
+    .profiles {
+        width: 70%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .profile-list {
+        margin: 0 20px 30px;
+    }
+
+    .contact-wrapper {
+        margin-top: 0;
+    }
+
+    .contact-title {
+        padding: 20px 0;
+    }
+
+    .container-form {
+        padding: 0 50px;
+    }
+
+    .container-image img {
+        padding: 0;
+        width: 100%;
+    }
+
+    .contact {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    input, textarea {
+        width: 100%;
+    }
+}
